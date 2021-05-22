@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent pt-0" color-on-scroll="500">
+    <div class="container">
+        <div class="navbar-translate">
+                <a class=" m-0" rel="tooltip" data-placement="bottom" [routerLink]="home" >
+                    <div class="ag-logo2">
+                        <img src="assets/img/logo.png" alt="">
+                    </div>
+                </a>
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" >
+                    <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/innobayt" target="_blank">
+                        <i class="fa fa-twitter color"></i>
+                        <p class="d-lg-none">Twitter</p>
+                    </a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/innobayt" target="_blank">
+                        <i class="fa fa-facebook-square color"></i>
+                        <p class="d-lg-none">Facebook</p>
+                    </a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/innobayt/" target="_blank">
+                        <i class="fa fa-instagram color"></i>
+                        <p class="d-lg-none">Instagram</p>
+                    </a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" rel="tooltip" title="Follow on LinkedIn" data-placement="bottom" href="https://www.linkedin.com/in/mohammed-saleel" target="_blank">
+                        <i class="fa fa-linkedin color"></i>
+                        <p class="d-lg-none">LinkedIn</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
